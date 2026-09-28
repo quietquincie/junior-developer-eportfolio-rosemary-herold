@@ -437,7 +437,7 @@ MODAL
   border: 2px solid #f06449;
   color: white;
   font-weight: 700;
-  width: 100%
+  width: 100%;
   max-width: 240px;
   padding: 12px 24px;
   font-size: 20px;
@@ -706,6 +706,9 @@ width = 80vw
 /* Small phones, tablets, large smart phones */
 
 @media (max-width: 768px) {
+.header {
+    top: 60%; 
+  }
 .title {
   font-size: 80px;
   }
